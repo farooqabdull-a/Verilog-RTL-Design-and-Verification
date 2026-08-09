@@ -1,5 +1,4 @@
-module PIPO(input clk,reset,load,[3:0] parallel_in,output reg [3:0]
- parallel_out);
+module PIPO(input clk,reset,load,[3:0] parallel_in,output reg [3:0] parallel_out);
 
      always @(posedge clk or posedge reset) begin
          if (reset)
