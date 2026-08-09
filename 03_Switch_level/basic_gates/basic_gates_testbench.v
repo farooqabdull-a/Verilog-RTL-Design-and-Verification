@@ -1,10 +1,6 @@
 module Basic_Gates_TB;
 
   reg a, b;
-
-
-
-                                       24
   wire not_out, and_out, nand_out, or_out, nor_out, xor_out, xnor_out;
 
   Basic_gates uut
