@@ -13,8 +13,4 @@ module T_latch (input T,enable,reset,output reg Q,output Q_bar);
          Q = Q;
  end
  assign Q_bar=~Q;
-
-
-
-                                       42
 endmodule
