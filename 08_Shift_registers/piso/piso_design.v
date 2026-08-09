@@ -11,9 +11,6 @@ module PISO(input clk,reset,load,[3:0] parallel_in,output reg serial_out);
              serial_out <= parallel_in[3];
          end else begin
              shift_reg <= {shift_reg[2:0], 1'b0};
-
-
-                                       56
               serial_out <= shift_reg[2];
         end
     end
