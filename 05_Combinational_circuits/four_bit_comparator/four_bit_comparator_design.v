@@ -17,9 +17,6 @@ end
 else begin
 A_LE_B = 0;
 A_EQ_B = 0;
-
-
-                                      33
 A_GR_B = 1;
 end
 
