@@ -4,9 +4,7 @@ module SIPO_TB_beha;
  SIPO uut (.D(D),.clk(clk),.reset(reset),.Q(Q));
 
  always #5 clk=~clk;
-
-
-                                       53
+ 
 initial begin
 clk=0;
 reset=1; D=0;
