@@ -11,7 +11,7 @@ module Full_Substractor_TB;
     a = 1; b = 0; cin = 1; #10;
     a = 1; b = 1; cin = 0; #10;
     a = 1; b = 1; cin = 1; #10;
-    $display("%b %b %b | %b       %b", a, b, cin, d, bo);
+    $display("%b %b %b | %b %b", a, b, cin, d, bo);
     $finish;
   end
 endmodule
