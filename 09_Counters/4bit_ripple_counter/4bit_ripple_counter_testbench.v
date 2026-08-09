@@ -5,9 +5,6 @@ module four_bit_Ripple_counter_TB;
    four_bit_ripple_counter uut(.clk(clk),.reset(reset),.t(t),.q(q));
 
    initial begin
-
-
-                                       67
     clk = 0;
     forever #5 clk = ~clk;
   end
