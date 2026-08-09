@@ -26,10 +26,8 @@ module JK_latch (J,K,enable,reset,Q,Qn);
                      Q = 1'bx;
                      Qn = 1'bx;
                  end
-
            end
 
-                                            37
         else begin
             Q = Q;
             Qn = Qn;
