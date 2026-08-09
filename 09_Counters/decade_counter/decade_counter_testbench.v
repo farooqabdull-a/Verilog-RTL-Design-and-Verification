@@ -18,7 +18,6 @@ module Decade_Counter_TB;
   end
 
   initial begin
-    $monitor("time=%0d | reset=%b | clk=%b | count=%d", $time, reset, clk,
-count);
+    $monitor("time=%0d | reset=%b | clk=%b | count=%d", $time, reset, clk, count);
     end
 endmodule
