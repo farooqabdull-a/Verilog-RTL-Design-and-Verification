@@ -8,11 +8,8 @@ wire q_bar;
 
 JK_FF uut (.clk(clk),.reset(reset),.J(J),.K(K),.q(q),.q_bar(q_bar));
 
-
-
   initial begin
-$display("Time=%0t reset=%b J=%b K=%b q=%b q_bar=%b", $time, reset, J,K, q,
-q_bar);
+    $display("Time=%0t reset=%b J=%b K=%b q=%b q_bar=%b", $time, reset, J,K, q, q_bar);
     clk = 0;
     forever #5 clk = ~clk;
   end
