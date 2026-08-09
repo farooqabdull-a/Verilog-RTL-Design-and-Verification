@@ -4,8 +4,7 @@ module PISO_TB;
   wire serial_out;
 
   PISO uut
-(.clk(clk),.reset(reset),.load(load),.parallel_in(parallel_in),.serial_out(seri
-al_out));
+(.clk(clk),.reset(reset),.load(load),.parallel_in(parallel_in),.serial_out(serial_out));
 
 initial begin
     clk = 0;
@@ -28,8 +27,7 @@ initial begin
     load = 1; parallel_in = 4'b0110; #10; load = 0;
     #10; #10; #10; #10;
     $display
-("Time=%0t,reset=%b,parallel_in=%b,serial_out=%b,load=%b",$time,reset,load,para
-llel_in,serial_out);
+("Time=%0t,reset=%b,parallel_in=%b,serial_out=%b,load=%b",$time,reset,load,parallel_in,serial_out);
     $finish;
   end
 endmodule
