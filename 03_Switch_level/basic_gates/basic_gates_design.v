@@ -14,10 +14,6 @@ not_out,and_out,nand_out,or_out,nor_out,xor_out,xnor_out);
     pmos p_nand1(nand_pullup, VDD, a);
     pmos p_nand2(nand_pullup, VDD, b);
 
-
-
-
-                                         23
     wire nand_nmos_net;
     nmos n_nand1(nand_nmos_net, GND, b);
     nmos n_nand2(nand_pullup, nand_nmos_net, a);
