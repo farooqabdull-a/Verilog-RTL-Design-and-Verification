@@ -2,13 +2,8 @@ module fourbit_upanddown_counter_TB;
    reg clk, reset,up_down;
    wire [3:0] count;
 
-   fourbit_upanddown_counter uut
- (.clk(clk),.reset(reset),.count(count),.up_down(up_down));
+   fourbit_upanddown_counter uut (.clk(clk),.reset(reset),.count(count),.up_down(up_down));
 
-
-
-
-                                        61
   initial begin
     clk = 0;
     forever #5 clk = ~clk;
