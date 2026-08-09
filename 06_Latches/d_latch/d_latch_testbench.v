@@ -20,10 +20,7 @@ module D_latch_TB;
           #10 D = 0;
           #10 reset = 1;
           #10 reset = 0;
-
-
-                                          41
-           #10 $finish;
+          #10 $finish;
      end
 
  endmodule
