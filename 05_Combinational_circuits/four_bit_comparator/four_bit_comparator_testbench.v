@@ -16,7 +16,6 @@ A=4'b0110;B=4'b0110; #10
 A=4'b1001;B=4'b0111; #10
 
 $finish;
-$display("TIme=0%t,A=%b,B=%b,A_LE_B=%b,A_EQ_B=%b,A_GR_B=%b",$time,A,B,A_LE_B,A_
-EQ_B,A_GR_B);
+$display("TIme=0%t,A=%b,B=%b,A_LE_B=%b,A_EQ_B=%b,A_GR_B=%b",$time,A,B,A_LE_B,A_EQ_B,A_GR_B);
 end
 endmodule
