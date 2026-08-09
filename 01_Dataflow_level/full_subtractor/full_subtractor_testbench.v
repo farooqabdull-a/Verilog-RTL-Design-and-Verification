@@ -3,11 +3,7 @@ module Full_Substractor_TB;
   wire d,bo;
 
   Full_substractor uut (.a(a),.b(b),.cin(cin),.d(d),.bo(bo));
-
-
-
-
-                                      13
+  
   initial begin
     a = 0; b = 0; cin = 0; #10;
     a = 0; b = 0; cin = 1; #10;
