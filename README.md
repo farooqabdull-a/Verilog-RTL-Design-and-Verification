@@ -19,9 +19,9 @@ Each block has its own folder containing:
 | Folder | Contents |
 |---|---|
 | `01_Dataflow_level` | Basic gates, half/full adder, half/full subtractor, 2:1 MUX (dataflow modeling) |
-| `02_Gate_Structural_level` | Same blocks at gate/structural level |
+| `02_Gate_Structural_level` | Basic gates, half/full adder, half/full subtractor, 2:1 MUX |
 | `03_Switch_level` | Basic gates at switch (transistor) level |
-| `04_Behavioral_level` | Same blocks at behavioral level |
+| `04_Behavioral_level` | Basic gates, half/full adder, half/full subtractor, 2:1 MUX |
 | `05_Combinational_circuits` | 4-bit comparator, 4-bit ripple carry adder |
 | `06_Latches` | JK, SR, D, T latches |
 | `07_Flipflops` | SR, D, JK, T flip-flops |
