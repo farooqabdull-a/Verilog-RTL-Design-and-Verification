@@ -18,16 +18,16 @@ Each block has its own folder containing:
 
 | Folder | Contents |
 |---|---|
-| `01_dataflow_level` | Basic gates, half/full adder, half/full subtractor, 2:1 MUX (dataflow modeling) |
-| `02_gate_structural_level` | Same blocks at gate/structural level |
-| `03_switch_level` | Basic gates at switch (transistor) level |
-| `04_behavioral_level` | Same blocks at behavioral level |
-| `05_combinational_circuits` | 4-bit comparator, 4-bit ripple carry adder |
-| `06_latches` | JK, SR, D, T latches |
-| `07_flipflops` | SR, D, JK, T flip-flops |
-| `08_shift_registers` | SISO, SIPO, PIPO, PISO |
-| `09_counters` | Up, down, up/down, ring, Johnson, decade, ripple counters |
-| `10_numericals` | Sum, square, factorial, Fibonacci series (Verilog functions) |
+| `01_Dataflow_level` | Basic gates, half/full adder, half/full subtractor, 2:1 MUX (dataflow modeling) |
+| `02_Gate_Structural_level` | Same blocks at gate/structural level |
+| `03_Switch_level` | Basic gates at switch (transistor) level |
+| `04_Behavioral_level` | Same blocks at behavioral level |
+| `05_Combinational_circuits` | 4-bit comparator, 4-bit ripple carry adder |
+| `06_Latches` | JK, SR, D, T latches |
+| `07_Flipflops` | SR, D, JK, T flip-flops |
+| `08_Shift_registers` | SISO, SIPO, PIPO, PISO |
+| `09_Counters` | Up, down, up/down, ring, Johnson, decade, ripple counters |
+| `10_Numericals` | Sum, square, factorial, Fibonacci series (Verilog functions) |
 ## Notes on schematic/simulation images
 
 Images were programmatically extracted from the source PDF and auto-matched to each block. This was spot-checked and is expected to be accurate, but a few blocks are flagged below — please review these before pushing:
